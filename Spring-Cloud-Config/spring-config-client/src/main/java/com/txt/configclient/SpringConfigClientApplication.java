@@ -18,7 +18,6 @@ public class SpringConfigClientApplication {
 
     @Autowired
     public void setEnv(Environment e) {
-        System.out.println(e.getProperty("msg"));
+        System.out.println("msg=" + e.getProperty("msg"));
     }
 }
-

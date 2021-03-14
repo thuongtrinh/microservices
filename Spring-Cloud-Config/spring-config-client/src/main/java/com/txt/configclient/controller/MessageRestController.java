@@ -7,13 +7,21 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RefreshScope
 @RestController
-class MessageRestController {
+public class MessageRestController {
 
     @Value("${msg:Config Server is not working. Please check...}")
     private String msg;
 
+    @Value("${text.copyright: Config Server is not working. Please check... Default Copyright}")
+    private String copyright;
+
     @GetMapping("/msg")
     public String getMsg() {
         return this.msg;
+    }
+
+    @GetMapping("/copyright")
+    public String getCopyRight() {
+        return this.copyright;
     }
 }
