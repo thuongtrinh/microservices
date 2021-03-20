@@ -3,6 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Spring-Cloud-Monitoring-Hystrix-Eureka.iml" filepath="$PROJECT_DIR$/.idea/Spring-Cloud-Monitoring-Hystrix-Eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ApiGatewayHystrix/api-gateway.iml" filepath="$PROJECT_DIR$/ApiGatewayHystrix/api-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/EurekaClientService/eureka-client-service.iml" filepath="$PROJECT_DIR$/EurekaClientService/eureka-client-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/EurekaServer/eureka-server.iml" filepath="$PROJECT_DIR$/EurekaServer/eureka-server.iml" />
     </modules>
   </component>
 </project>
