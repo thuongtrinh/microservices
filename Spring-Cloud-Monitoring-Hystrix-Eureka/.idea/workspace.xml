@@ -23,10 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="13f0be59-da4f-4735-9a4e-5d0c8c1128f4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ApiGatewayHystrix/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ApiGatewayHystrix/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EurekaServer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/EurekaServer/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +51,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="com.intellij.openapi.externalSystem.service.settings.ExternalSystemGroupConfigurable" value="ALL" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/EurekaServer" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Spring-Cloud-Apigateway-Zuul" />
     <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -162,26 +159,26 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="137" y="18" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1616254419354" />
-    <state x="455" y="110" key="FileChooserDialogImpl" timestamp="1616254415181">
+    <state x="455" y="110" key="FileChooserDialogImpl" timestamp="1616261332622">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="455" y="110" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1616254415181" />
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1616260256333">
+    <state x="455" y="110" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1616261332622" />
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1616261333971">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1616260256333" />
-    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1616260256332">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1616261333971" />
+    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1616261333970">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1616260256332" />
-    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1616260256332">
+    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1616261333970" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1616261333970">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1616260256332" />
-    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1616260256333">
+    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1616261333970" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1616261333970">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1616260256333" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1616261333970" />
     <state x="213" y="18" key="Maven.ArtifactSearchDialog" timestamp="1616257589834">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -194,9 +191,9 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="339" y="162" width="672" height="677" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1616254396543" />
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1616254541052">
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1616260772334">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1616254541052" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1616260772334" />
   </component>
 </project>
