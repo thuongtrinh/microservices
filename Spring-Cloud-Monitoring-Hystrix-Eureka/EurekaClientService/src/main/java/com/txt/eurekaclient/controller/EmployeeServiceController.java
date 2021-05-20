@@ -7,6 +7,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 @RestController
@@ -28,5 +29,11 @@ public class EmployeeServiceController {
             employee = new Employee(0, "N/A");
         }
         return employee;
+    }
+
+    @RequestMapping(value = "/getEmployees", method = RequestMethod.GET)
+    public Map<Integer, Employee> getEmployeeDetails() {
+        System.out.println("Getting Employee list" );
+        return employeeData;
     }
 }

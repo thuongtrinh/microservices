@@ -23,22 +23,37 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="13f0be59-da4f-4735-9a4e-5d0c8c1128f4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/ApiGatewayHystrix/src/main/java/com/txt/apigateway/feign/StudentFeign.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring-Cloud-Eureka-OpenAPI/EurekaClientEngine/src/main/java/com/txt/eurekaclientengine/controller/EurekaClientEngineController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring-Cloud-Eureka-OpenAPI/EurekaClientEngine/src/main/java/com/txt/eurekaclientengine/controller/EurekaClientEngineController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Spring-Cloud-Monitoring-Hystrix-Eureka.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Spring-Cloud-Monitoring-Hystrix-Eureka.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ApiGatewayHystrix/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ApiGatewayHystrix/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ApiGatewayHystrix/src/main/java/com/txt/apigateway/ApiGatewayHystrixApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/ApiGatewayHystrix/src/main/java/com/txt/apigateway/ApiGatewayHystrixApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ApiGatewayHystrix/src/main/java/com/txt/apigateway/controller/EmployeeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ApiGatewayHystrix/src/main/java/com/txt/apigateway/controller/EmployeeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ApiGatewayHystrix/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ApiGatewayHystrix/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EurekaClientService/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/EurekaClientService/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EurekaClientService/src/main/java/com/txt/eurekaclient/EurekaClientServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/EurekaClientService/src/main/java/com/txt/eurekaclient/EurekaClientServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EurekaClientService/src/main/java/com/txt/eurekaclient/controller/EmployeeServiceController.java" beforeDir="false" afterPath="$PROJECT_DIR$/EurekaClientService/src/main/java/com/txt/eurekaclient/controller/EmployeeServiceController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EurekaClientService/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/EurekaClientService/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EurekaServer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/EurekaServer/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EurekaServer/src/main/java/com/txt/eurekaserver/EurekaServerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/EurekaServer/src/main/java/com/txt/eurekaserver/EurekaServerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EurekaServer/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/EurekaServer/src/main/resources/bootstrap.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
-  </component>
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
-      </MavenGeneralSettings>
-    </option>
   </component>
   <component name="MavenRunner">
     <option name="jreName" value="13" />
@@ -49,15 +64,34 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.openapi.externalSystem.service.settings.ExternalSystemGroupConfigurable" value="ALL" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Spring-Cloud-Apigateway-Zuul" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.build" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
-  <component name="RunManager" selected="Application.ApiGatewayHystrixApplication">
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\GitHub\microservices\Spring-Cloud-Monitoring-Hystrix-Eureka" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.EurekaClientServiceApplication">
     <configuration name="ApiGatewayHystrixApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.txt.apigateway.ApiGatewayHystrixApplication" />
       <module name="api-gateway" />
@@ -97,6 +131,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="MavenRunConfiguration" factoryName="Maven">
       <MavenSettings>
         <option name="myGeneralSettings" />
@@ -120,6 +167,35 @@
       </MavenSettings>
       <method v="2" />
     </configuration>
+    <configuration name="ApiGatewayHystrixApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="api-gateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.txt.apigateway.ApiGatewayHystrixApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaClientServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="eureka-client-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.txt.eurekaclient.EurekaClientServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="eureka-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.txt.eurekaserver.EurekaServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.ApiGatewayHystrixApplication" />
+      <item itemvalue="Application.EurekaClientServiceApplication" />
+      <item itemvalue="Application.EurekaServerApplication" />
+      <item itemvalue="Spring Boot.EurekaServerApplication" />
+      <item itemvalue="Spring Boot.ApiGatewayHystrixApplication" />
+      <item itemvalue="Spring Boot.EurekaClientServiceApplication" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.ApiGatewayHystrixApplication" />
@@ -136,8 +212,13 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1614786903668</updated>
+      <workItem from="1621494968154" duration="3126000" />
+      <workItem from="1621500110173" duration="12007000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -149,51 +230,6 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="391" y="99" key="#Servers" timestamp="1616254311344">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="391" y="99" key="#Servers/0.0.1366.728@0.0.1366.728" timestamp="1616254311344" />
-    <state x="137" y="18" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1616254419354">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="137" y="18" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1616254419354" />
-    <state x="455" y="110" key="FileChooserDialogImpl" timestamp="1616261332622">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="455" y="110" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1616261332622" />
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1616261333971">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1616261333971" />
-    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1616261333970">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1616261333970" />
-    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1616261333970">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1616261333970" />
-    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1616261333970">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1616261333970" />
-    <state x="213" y="18" key="Maven.ArtifactSearchDialog" timestamp="1616257589834">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="213" y="18" key="Maven.ArtifactSearchDialog/0.0.1366.728@0.0.1366.728" timestamp="1616257589834" />
-    <state x="176" y="0" key="SettingsEditor" timestamp="1616254523187">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="176" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1616254523187" />
-    <state x="339" y="162" width="672" height="677" key="run.anything.popup" timestamp="1616254396543">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="339" y="162" width="672" height="677" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1616254396543" />
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1616260772334">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1616260772334" />
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

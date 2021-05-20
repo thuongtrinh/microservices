@@ -1,6 +1,7 @@
 package com.txt.apigateway.controller;
 
 import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
+import com.txt.apigateway.feign.StudentFeign;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cloud.client.loadbalancer.LoadBalanced;
 import org.springframework.context.annotation.Bean;
@@ -16,7 +17,10 @@ import org.springframework.web.client.RestTemplate;
 public class EmployeeController {
 
     @Autowired
-    RestTemplate restTemplate;
+    private RestTemplate restTemplate;
+
+    @Autowired
+    private StudentFeign studentFeign;
 
     @RequestMapping(value = "/employeeDetails/{employeeid}", method = RequestMethod.GET)
     @HystrixCommand(fallbackMethod = "fallbackMethod")
@@ -28,12 +32,22 @@ public class EmployeeController {
                 }, employeeid).getBody();
 
         System.out.println("Response Body " + response);
-
         return "Employee Id -  " + employeeid + " [ Employee Details " + response + " ]";
     }
 
+    @RequestMapping(value = "/employeeDetails", method = RequestMethod.GET)
+    @HystrixCommand(fallbackMethod = "fallbackMethodCom")
+    public Object getStudents() {
+        System.out.println("Getting Employee list");
+        return studentFeign.getEmployeeList();
+    }
+
     public String fallbackMethod(int employeeid) {
-        return "Fallback response:: No employee details available temporarily";
+        return "Fallback response:: No employee details available temporarily with id: " + employeeid;
+    }
+
+    public String fallbackMethodCom() {
+        return "Fallback response:: No employee any details available temporarily";
     }
 
     @Bean

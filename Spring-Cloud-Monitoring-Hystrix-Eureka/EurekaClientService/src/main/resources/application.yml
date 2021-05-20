@@ -1,6 +1,10 @@
 server:
   port: 8011
 
+spring:
+  application:
+    name: employee-service
+
 eureka:
   instance:
     leaseRenewalIntervalInSeconds: 5
@@ -12,10 +16,6 @@ eureka:
       enabled: true
     lease:
       duration: 5
-
-spring:
-  application:
-    name: employee-service
 
 management:
   security:

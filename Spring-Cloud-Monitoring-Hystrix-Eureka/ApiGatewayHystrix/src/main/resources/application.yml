@@ -1,5 +1,9 @@
 server:
-  port: 8010    #port number
+  port: 8080    #port number
+
+spring:
+  application:
+    name: api-gateway
 
 eureka:
   instance:
@@ -12,10 +16,6 @@ eureka:
       enabled: true
     lease:
       duration: 5
-
-spring:
-  application:
-    name: api-gateway
 
 management:
   security:
@@ -30,6 +30,13 @@ hystrix:
   dashboard:
     proxy-stream-allow-list: "*"
 
+#microservices
+micro-service:
+  employee-service:
+    name: employee-service
+
 logging:
   level:
     com.self.sprintboot.learning.apigateway: DEBUG
+
+#Hystrix Stream:  http://localhost:8080/actuator/hystrix.stream
